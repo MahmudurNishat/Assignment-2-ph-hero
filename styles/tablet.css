@@ -113,6 +113,7 @@
   }
   .videoMain {
     flex-direction: column;
+    align-items: normal;
   }
 }
 
@@ -146,6 +147,10 @@
      ================================================== */
 #newsletter img {
   width: 100%;
+  height: 422px;
+}
+.newsMain {
+  align-items: normal;
 }
 .newsInputBox {
   width: 100%;
@@ -161,6 +166,7 @@
   top: 93%;
   left: 4%;
 }
+
 /* 
   /* ==================================================
                       newsletter-part css end here
