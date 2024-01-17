@@ -1,0 +1,170 @@
+/* =================== Tablet Device Start =========== */
+@media screen and (min-width: 601px) and (max-width: 991.98px) {
+  /* =============== nav partstart ========== */
+  .navParent {
+    justify-content: space-around;
+  }
+  .nav_link {
+    display: none;
+  }
+  .MenuIcon {
+    display: block;
+    font-size: 1.8rem;
+    color: #000;
+  }
+  /* =============== nav part end ========== */
+
+  /* =============== banner part start ========== */
+  .formfirst {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  input[type="text"],
+  .inputBtn,
+  select {
+    width: 100%;
+  }
+  /* =============== banner part end ========== */
+
+  /* ==================================================
+                      popular_part css start here
+     ================================================== */
+  body {
+    padding: 0 20px;
+  }
+  #poplular {
+    padding: 30px 0;
+  }
+  .popularMain {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .everst {
+    width: 100%;
+  }
+  .Primary_btn {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .popularTextFirst__summary {
+    max-width: 500px;
+    margin-bottom: 35px;
+  }
+  .popularTextSecond__summary {
+    max-width: 500px;
+    margin-top: 30px;
+  }
+  .listParent {
+    max-width: 500px;
+  }
+
+  /* ==================================================
+                        polular_part css end here
+       ================================================== */
+
+  /* =============== choose part start========= */
+  .chooseCard {
+    width: 100%;
+  }
+  /* =============== choose part end========= */
+
+  /* ==================================================
+                      deal_part css start here
+     ================================================== */
+  #deal {
+    padding: 0 0 50px;
+  }
+  .dealbox img {
+    height: 635px;
+    width: 100%;
+  }
+
+  .infoOverlay {
+    padding: 25px 35px 25px 25px;
+    height: 400px;
+    max-width: 90%;
+    top: 30%;
+  }
+  .boxtwo .infoOverlay {
+    top: 30%;
+  }
+  .overlayTop {
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+  /* ==================================================
+                        deal_part css end here
+       ================================================== */
+
+  /* ==================================================
+                      video_part css start here
+     ================================================== */
+  #video {
+    padding: 0 0 60px;
+    background-color: var(--white);
+  }
+  #video img {
+    width: 100%;
+  }
+  .videoText {
+    max-width: 991px;
+  }
+  .videoMain {
+    flex-direction: column;
+  }
+}
+/* ==================================================
+                      video_part css end here
+     ================================================== */
+
+/* 
+  /* ==================================================
+                      team_part css end here
+     ================================================== */
+#team {
+  padding: 10px 0 55px;
+  background-color: var(--white);
+}
+.profileBox {
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+.profileOne {
+  margin-bottom: 30px;
+}
+/* 
+  /* ==================================================
+                      tean_part css end here
+     ================================================== */
+
+/* 
+  /* ==================================================
+                      newsletter-part css end here
+     ================================================== */
+#newsletter img {
+  width: 100%;
+}
+
+.newsInputBox {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.horizontal-line {
+  width: 100%;
+}
+.textOverlayBox {
+  padding: 20px;
+}
+.lines {
+  top: 93%;
+  left: 4%;
+}
+/* 
+  /* ==================================================
+                      newsletter-part css end here
+     ================================================== */
+/* 
+  
+  /* =================== Tablet Device End =========== */
