@@ -115,6 +115,7 @@
     flex-direction: column;
   }
 }
+
 /* ==================================================
                       video_part css end here
      ================================================== */
@@ -146,7 +147,6 @@
 #newsletter img {
   width: 100%;
 }
-
 .newsInputBox {
   width: 100%;
   margin-bottom: 30px;
